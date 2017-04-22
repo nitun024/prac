@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.vaticahealth.vatica.testsuits.PHPSuite">
+        <methods>
+          <include name="tc_PHP_7"/>
+          <include name="tc_PHP_10"/>
+          <include name="getResult"/>
+          <include name="tc_PHP_3"/>
+          <include name="invokeUrl"/>
+          <include name="tc_PHP_9"/>
+          <include name="tc_PHP_8"/>
+          <include name="setUpBeforeEveryTest"/>
+          <include name="startReport"/>
+          <include name="tc_PHP_6"/>
+          <include name="tc_PHP_5"/>
+          <include name="tc_PHP_4"/>
+          <include name="tc_PHP_2"/>
+        </methods>
+      </class> <!-- com.vaticahealth.vatica.testsuits.PHPSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
